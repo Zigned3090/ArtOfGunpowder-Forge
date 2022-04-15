@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="MIT"
+[[mods]]
+modId="art_gunpowder"
+version="${file.jarVersion}"
+displayName="Art Of Gunpowder"
+logoFile="artgunpowder.png"
+credits="Zigned"
+authors="Zigned"
+description=''' '''
+[[dependencies.artgunpowder]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.artgunpowder]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2, 1.19)"
+    ordering="NONE"
+    side="BOTH"
